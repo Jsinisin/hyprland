@@ -1,0 +1,50 @@
+{
+
+	// General Settings
+	
+	// Position TOP
+	"layer": "top",
+	"margin-top": 4,
+	"margin-bottom": 0,
+	"output": "eDP-1",
+
+	// Position BOTTOM
+	// "position": "bottom",
+	// "margin-top": 0,
+	// "margin-bottom": 14,
+
+	"layer": "top",
+	"margin-left": 0,
+	"margin-right": 0,
+	"spacing": 0,
+
+	// Load Modules
+	"include": ["~/.config/hypr/hyprmodules.json"],
+	
+	// Modules Left
+	"modules-left": [
+                "cpu",
+                "memory",
+                "disk", 
+                "hyprland/workspaces",
+                "group/apps"
+	],
+
+	// Modules Center
+	"modules-center": [
+		"clock"
+	],
+
+	// Modules Right
+	"modules-right": [
+		// Start Tray Toggle
+		"tray",
+		// End Tray Toggle
+		"network",
+		"bluetooth",
+		"pulseaudio",
+		"battery",
+		"custom/exit"
+	]
+}
+
